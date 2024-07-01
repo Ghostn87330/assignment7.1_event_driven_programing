@@ -1,0 +1,47 @@
+/* Style of the page the font type, background color and how the elements of the page will align */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Ctyle for the meme image must be adjusted otherwise you will have a distorted image that is not proportionate */
+#meme {
+    width: 200px;
+    height: 350px;
+    transition: transform 0.5s;
+}
+
+/* Area of the buttons */
+#buttonContainer {
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Style for the button and text appearance */
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+/* Color of the start button */
+#startButton {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* color of the stop button */
+#stopButton {
+    background-color: #f44336;
+    color: white;
+}

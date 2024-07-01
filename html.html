@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Driven Programing</title>
+    <!-- Link to style sheet for look and interface -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--Image I used is a PNG to give the illusion of a character jumping around background of character was taken out using photoshop and saved in PNG formatt-->
+    <img id="meme" src="character.png" alt="Meme" />
+
+    <!--Div of the buttons to allow CSS to move them to the bottom center of the webpage -->
+    <div id="buttonContainer">
+        <!-- Begin Animation -->
+        <button id="startButton" onclick="startAnimation()">Start</button>
+        <!-- Stop Animation -->
+        <button id="stopButton" onclick="stopAnimation()" disabled>Stop</button>
+    </div>
+
+    <!-- link javascript code -->
+    <script src="scripts.js"></script>
+</body>
+</html>
